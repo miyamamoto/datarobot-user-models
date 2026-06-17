@@ -36,7 +36,7 @@ RUN echo "[Python3.13] GIT_COMMIT: $GIT_COMMIT" && \
   openblas git openssh-server busybox coreutils gzip zip unzip wget curl \
   openjdk-11 vim nano procps tzdata poppler-utils nodejs npm \
   pulumi pulumi-language-python pulumi-language-yaml pulumi-language-go pulumi-language-nodejs \
-  gh uv task bash-completion \
+  gh uv task bash-completion xdg-utils \
   && rm -rf /var/cache/apk/
 
 ENV PYTHONUNBUFFERED=1 \
